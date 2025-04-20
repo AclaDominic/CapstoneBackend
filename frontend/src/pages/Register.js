@@ -4,7 +4,15 @@ import { register } from '../api/auth';
 import '../stylePage/Register.css';
 
 function Register() {
-  const [form, setForm] = useState({ name: '', email: '', password: '', contact_number: '', role: '' });
+  const [form, setForm] = useState({
+    name: '',
+    email: '',
+    contact_number: '',
+    password: '',
+    password_confirmation: '',  // ✅ Added this!
+    role: ''
+  });
+
   const navigate = useNavigate();
 
   const handleChange = (e) => {
@@ -14,7 +22,7 @@ function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await register(form); // Register the user
+      await register(form); // Send the complete data including password_confirmation
       alert('Registration successful!');
       navigate('/login'); // Redirect to login after successful registration
     } catch (error) {
@@ -56,6 +64,14 @@ function Register() {
           name: 'password',
           placeholder: 'Password',
           value: form.password,
+          onChange: handleChange,
+          required: true
+        }),
+        React.createElement('input', {
+          type: 'password',
+          name: 'password_confirmation',
+          placeholder: 'Confirm Password',
+          value: form.password_confirmation,
           onChange: handleChange,
           required: true
         }),
