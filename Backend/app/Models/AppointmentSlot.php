@@ -5,8 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class TransactionRecord extends Model
+class AppointmentSlot extends Model
 {
     use HasFactory;
-    //This model will be used to store the transaction records for each patient
+    //Where the appointments will be stored and retrieved for patient reminder prefilled messages
 }

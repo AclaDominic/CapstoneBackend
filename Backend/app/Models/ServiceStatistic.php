@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class ServiceStatistic extends Model
 {
     use HasFactory;
+    // Store all the services that the patient has used
 }
