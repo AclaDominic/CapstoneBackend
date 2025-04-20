@@ -74,7 +74,7 @@ function Dashboard() {
       );
     }
 
-    const users = ['Jane Doe', 'John Smith', 'Alice Johnson'];
+    const users = ['John Dominic', 'John Meng', 'Meng Adebayor'];
 
     return (
       <div>
@@ -110,7 +110,7 @@ function Dashboard() {
         <tbody>
           <tr>
             <td>001</td>
-            <td>Jane Doe</td>
+            <td>John Dominic</td>
             <td>2025-04-20</td>
             <td>Cleaning</td>
             <td>₱5000</td>
@@ -217,16 +217,16 @@ function Dashboard() {
                   </thead>
                   <tbody>
                     <tr>
-                      <td>#TX1002</td>
-                      <td>Alice Johnson</td>
+                      <td>1001</td>
+                      <td>John Dominic</td>
                       <td>Tooth Extraction</td>
                       <td>2025-04-19</td>
                       <td>₱3,000</td>
                       <td style={{ color: 'green' }}>Paid</td>
                     </tr>
                     <tr>
-                      <td>#TX1003</td>
-                      <td>John Smith</td>
+                      <td>1002</td>
+                      <td>Meng Adebayor</td>
                       <td>Filling</td>
                       <td>2025-04-18</td>
                       <td>₱2,000</td>
@@ -253,7 +253,7 @@ function Dashboard() {
                   <input type="text" defaultValue="9:00 AM - 6:00 PM" style={{ margin: '10px 0', padding: '5px', width: '300px' }} />
                 </div>
                 <div>
-                  <h4>Manage Dentist Users</h4>
+                  <h4>Manage Patient Users</h4>
                   <table border="1" width="100%" cellPadding="10" cellSpacing="0">
                     <thead style={{ backgroundColor: '#0f5e88', color: 'white' }}>
                       <tr>
@@ -265,15 +265,21 @@ function Dashboard() {
                     </thead>
                     <tbody>
                       <tr>
-                        <td>admin1</td>
-                        <td>admin1@rmdental.com</td>
-                        <td>Super Admin</td>
+                        <td>Patient1</td>
+                        <td>Patient1@gmail.com</td>
+                        <td>Patient1</td>
                         <td>Active</td>
                       </tr>
                       <tr>
-                        <td>clerk_dent</td>
-                        <td>clerk@rmdental.com</td>
-                        <td>Clerk</td>
+                        <td>Patient2</td>
+                        <td>Patient2@gmail.com</td>
+                        <td>Patient2</td>
+                        <td>Active</td>
+                      </tr>
+                      <tr>
+                        <td>Patient3</td>
+                        <td>Patient3@gmail.com</td>
+                        <td>Patient3</td>
                         <td>Active</td>
                       </tr>
                     </tbody>
