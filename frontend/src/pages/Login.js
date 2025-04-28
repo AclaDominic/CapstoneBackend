@@ -25,7 +25,7 @@ function Login() {
   return React.createElement('div', { className: 'login-container' },
     // Sidebar
     React.createElement('div', { className: 'sidebar' },
-      React.createElement('h1', null, 'RM Dental Clinic'),
+      React.createElement('h1', null, 'Dental Clinic'),
       React.createElement('p', null, 'Log in to access your dashboard')
     ),
 

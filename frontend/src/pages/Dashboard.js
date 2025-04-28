@@ -248,7 +248,7 @@ function Dashboard() {
                 <div style={{ marginBottom: '30px' }}>
                   <h4>Clinic Preferences</h4>
                   <label>Clinic Name: </label>
-                  <input type="text" defaultValue="RM Dental Clinic" style={{ margin: '10px 0', padding: '5px', width: '300px' }} /><br />
+                  <input type="text" defaultValue="Dental Clinic" style={{ margin: '10px 0', padding: '5px', width: '300px' }} /><br />
                   <label>Operating Hours: </label>
                   <input type="text" defaultValue="9:00 AM - 6:00 PM" style={{ margin: '10px 0', padding: '5px', width: '300px' }} />
                 </div>
@@ -307,7 +307,7 @@ function Dashboard() {
         // borderRadius: '10px' 
         }}>
   <FaTooth style={{ marginRight: '10px' }} />
-  RM Dental
+   Dental Clinic
 </h4>
 
         <ul style={{ listStyle: 'none', padding: 0, marginTop: '40px' }}>
